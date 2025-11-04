@@ -1,0 +1,49 @@
+body{
+	background-color:#000000;
+
+}
+.heading{
+	text-align:center;
+	background-image:url("jack.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	backface-visibility:0;
+
+}
+.color{
+	background-color:red;
+}
+p.eater{
+	 font-family: "Eater", serif;
+  font-weight: 500;
+  font-style: normal;
+  color:#ffaa00;
+  font-size:25px;
+}
+.eater{
+  font-family: "Eater", serif;
+  font-weight: 500;
+  font-style: normal;
+  color:#ffaa00;
+  font-size:70px;
+}
+.henny{
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:#df1500;
+  font-size:25px;
+}
+.left{
+	text-align:left;
+	
+}
+.next{
+	text-align: right;
+	position:relative;
+}
+.prev{
+	
+	text-align:left;
+	position:relative;
+}

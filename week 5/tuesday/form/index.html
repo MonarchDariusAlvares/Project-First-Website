@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>form </title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h4 class="bg">CUSTOMER BANK DETAILS</h4>
+		<form>
+			<div >
+				<div class="left bg1">
+					<label>First Name</label>
+					<input type="text" minlength="1" autofocus><br><br>
+					
+					<label>Last Name</label>
+					<input type="text" minlength="1"><br><br>
+					
+					<label>Age</label>
+					<input type="number" maxlength="2" value="0" min="0" max="99" ><br>
+				</div>
+			</div>
+			<div >
+				<div class="left bg1">
+					<h4 class="bg">GENDER</h4><br><br>
+					<input type="radio" id="gen1" name="gen">
+					<label for="gen1">Male</label><br><br>
+					
+					<input type="radio" id="gen2" name="gen">
+					<label for="gen2">Female</label><br><br>
+				</div>
+				
+				<div class="right bg1">
+					<h4 class="bg">PUBLIC SERVICE</h4><br><br>
+					<label>PPS Number-:</label>
+					<input type="password" maxlength="9"><br><br>
+					
+					<label>PSC-:</label>
+					<input type="number" maxlength="12"><br><br>
+				</div>	
+			</div>
+			
+			<div>
+				<div class="left bg1"><br>
+				 <h4 class="bg">ACCOUNT DETAILS</h4><br><br>
+					<label>Account Number-:</label>
+					<input type="number"><br><br>
+					
+					<label>IBAN-:</label>
+					<input type="password"><br><br>
+					
+					<label>BIC-:</label>
+					<input type="password"><br><br>
+					
+					<label>NSC-:</label>
+					<input type="number"><br><br>
+				</div>
+				<div class="right bg1">
+					<h4 class="right bg">Residence</h4><br><br>
+					<label>Address-:</label>
+					<input type="text"><br>
+				</div>
+			</div>
+			
+			<div>
+				<div class="left bg1">
+					<h4 class="bg">Payment method used frequently</h4><br><br>
+					<label for="pay"></label>
+					<select id="pay">
+						<option>CASH</option>
+						<option>VISA CARD</option>
+						<option>MASTER CARD</option>
+					</select><br>
+				</div>
+				
+				<div class="right bg1">
+					<h4 class="right bg">Contact Info</h4><br><br>
+					<label>Telephone No.-:</label>
+					<input type="tel" placeholder="+353 000000000"><br>
+				</div>
+			</div>
+			
+			<div>	
+				<div class="center bg1">
+					<input type="checkbox" id="check" required>
+					<label for="check">Accept Our Terms and Conditions</label><br>
+					<details>
+						<summary>&#x24D8 T&C's</summary>
+						<p>Blah Blah Blah Blah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah Blah Blah Blah 		BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah Blah Blah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah Blah Blah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah Blah Blah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah BlahBlah Blah Blah
+						</p>
+					</details>
+				</div>
+			</div>
+			<div class="center">
+				<input type="submit" id="button" value="SUBMIT">
+			</div>
+		</form>
+	</body>
+</html>

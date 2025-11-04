@@ -1,0 +1,20 @@
+body{
+	background-image:url('background.jpg');
+	background-repeat:no-repeat;
+	//background-repeat:repeat-x;
+	//background-repeat:repeat-y;
+	background-size:100%;
+	//	opacity:0.1;
+	//background:rgba(,,,0.3);
+}
+p{
+	text-align:center;
+}
+h1{
+	background:#ffcccc;
+	opacity:0.9;
+	text-align:center;
+}
+div{
+	background:rgba(204,204,255,0.9);
+}

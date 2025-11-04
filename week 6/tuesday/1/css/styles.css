@@ -1,0 +1,12 @@
+body{
+	background-color:#ffcccc;
+	background-image:url("../images/back/back1.jpg");
+	background-size:cover;
+}
+h1{
+	background-color:#ffffff;
+	display:block;
+}
+img{
+	width:15%;
+}

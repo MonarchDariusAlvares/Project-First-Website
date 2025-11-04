@@ -1,0 +1,22 @@
+body{
+	background-color:#ccccff;
+}
+.intro{
+	background-color:#ff0000;
+}
+#notIntro{
+	background-color:#ffcccc;
+	height: 200px;
+}
+#right_nav{
+	
+	
+	top:30px;
+	right:100px;
+	float:right;
+	width:116px;
+	height:109px;
+	padding:0;
+	margin:0;
+	border-left:5px solid black;
+}

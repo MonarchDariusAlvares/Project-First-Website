@@ -1,0 +1,49 @@
+html{
+	font-size:16px;
+}
+body{
+	
+	margin:10px 10px 10px 10px;
+	border-radius: 25px;
+	padding:10px 150px 10px 150px;
+	background-color:#00bcf0;
+}
+
+div{
+	border-radius: 10px;
+	word-spacing:2px;
+	background-color:#303539;
+	padding:20px 20px 20px 10px;
+	border:solid 5px #303539;
+}
+h4{ border-radius: 10px;
+	font-size:1.5rem;
+	display:inline;
+	border:solid 3px black;
+	position:static;
+	background-color:#ffe556;
+}
+div.center{
+	text-align:center;
+	
+}
+div.left{
+	text-align:left;
+}
+div.right{
+	text-align:right;
+}
+h4.right{
+	position:relative;
+	right:131px;
+}
+.bg{
+	background-color:#ffffff;
+}
+.bg1{
+	background-color:#ffe556;
+}
+#button{
+	font-family: serif;
+	font-size:50px;
+}
